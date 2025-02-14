@@ -92,6 +92,30 @@ configMap:
 | `affinity` | Pod affinity/anti-affinity rules | `{}` |
 
 
+## Build the Docker image
+
+### Build
+```bash
+docker build -t {YOUR_DOCKER_REGISTRY}/{YOUR_DOCKER_IMAGE_NAME}:{YOUR_DOCKER_TAG} .
+```
+
+![Build](./assets/4.png)
+
+
+### Tag
+```bash
+docker tag {YOUR_DOCKER_IMAGE_NAME}:{YOUR_DOCKER_TAG} {YOUR_DOCKER_REGISTRY}/{YOUR_DOCKER_IMAGE_NAME}:{YOUR_DOCKER_TAG}
+```
+
+![Tag](./assets/5.png)
+
+### Push
+```bash
+docker push {YOUR_DOCKER_REGISTRY}/{YOUR_DOCKER_IMAGE_NAME}:{YOUR_DOCKER_TAG}
+```
+
+![Push](./assets/6.png)
+
 ## Example of Implemented Values.yaml file
 
 ```yaml
@@ -156,15 +180,40 @@ affinity: {}  # Add affinity rules if needed
 
 To install the chart with the release name "fastapi-chart":
 
+#### Clone the repository
+
 ```bash
-helm install fastapi-chart ./helm/fastapi
+git clone https://github.com/anqorithm/fastapi-helm-chart.git
 ```
+
+
+#### Install the chart
+
+```bash
+helm install fastapi-chart ./charts/fastapi
+```
+
+![Install](./assets/7.png)
+
+#### Open OpenShift to see the application
+
+![OpenShift](./assets/8.png)
+
+
+#### Create a route to access the application
+
+![Route](./assets/9.png)
+
+
+#### Access the application
+
+![Access](./assets/10.png)
+
+![Access](./assets/11.png)
+
 
 This will deploy your FastAPI application to the OpenShift cluster using the default configuration values. For custom configurations, create a values.yaml file with your desired settings and use:
 
 ```bash
-helm install fastapi-chart ./helm/fastapi -f values.yaml
+helm install fastapi-chart ./charts/fastapi -f values.yaml
 ```
-
-
-

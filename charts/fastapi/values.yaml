@@ -14,22 +14,14 @@ fullnameOverride: ""
 
 service:
   type: LoadBalancer
-  port: 80
+  port: 8000
+  targetPort: 8000
 
 configMap:
   data:
     APP_NAME: "Example FastAPI App"
     DEBUG: false
     VERSION: "0.0.1" 
-
-route:
-  enabled: false
-  host: ""
-  path: /
-  tls:
-    enabled: false
-    termination: edge
-    insecureEdgeTerminationPolicy: Allow
 
 resources:
   limits:

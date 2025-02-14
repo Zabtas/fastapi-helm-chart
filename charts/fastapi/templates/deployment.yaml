@@ -2,30 +2,32 @@ apiVersion: apps/v1
 kind: Deployment
 
 metadata:
-  name: {{ .Release.Name }}-app
+  name: {{ include "fastapi.fullname" . }}
   namespace: {{ .Values.namespace }}
-  labels: 
-{{ include "fastapi.labels" . | indent 4 }}
+  labels:
+    {{- include "fastapi.labels" . | nindent 4 }}
 
 spec:
   replicas: {{ .Values.replicaCount }}
   
   selector:
     matchLabels:
-      app: {{ .Release.Name }}-app
+      {{- include "fastapi.selectorLabels" . | nindent 6 }}
   
   template:
     metadata:
       labels:
-        app: {{ .Release.Name }}-app
+        {{- include "fastapi.selectorLabels" . | nindent 8 }}
     spec:
       containers:
-        - name: app-container
-          image: {{ .Values.image.registry }}/{{ .Values.image.repository }}:{{ .Values.image.tag }}
+        - name: {{ .Chart.Name }}
+          image: "{{ .Values.image.registry }}/{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           
           ports:
-            - containerPort: 80
+            - name: http
+              containerPort: {{ .Values.service.targetPort | int }}
+              protocol: TCP
           
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
