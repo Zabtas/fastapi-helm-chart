@@ -17,3 +17,9 @@ keywords:
   - kubernetes
 annotations:
   category: Backend
+  artifacthub.io/tags: fastapi, helm, api, kubernetes
+  artifacthub.io/provider: anqorithm
+  artifacthub.io/license: MIT
+  artifacthub.io/readme_url: https://github.com/anqorithm/fastapi-helm-chart/blob/main/README.md
+  artifacthub.io/changes: |
+    - initial release
