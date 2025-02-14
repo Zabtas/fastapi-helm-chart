@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: {{ .Release.Name }}-app
+  namespace: {{ .Values.namespace }}
+  labels: 
+{{ include "fastapi.labels" . | indent 4 }}
+
+spec:
+  replicas: {{ .Values.replicaCount }}
+  
+  selector:
+    matchLabels:
+      app: {{ .Release.Name }}-app
+  
+  template:
+    metadata:
+      labels:
+        app: {{ .Release.Name }}-app
+    spec:
+      containers:
+        - name: app-container
+          image: {{ .Values.image.registry }}/{{ .Values.image.repository }}:{{ .Values.image.tag }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          
+          ports:
+            - containerPort: 80
+          
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}
+          
+          envFrom:
+            - configMapRef:
+                name: {{ .Release.Name }}-config

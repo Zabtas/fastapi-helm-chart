@@ -1,0 +1,46 @@
+replicaCount: 1
+
+image:
+  registry: ""
+  repository: ""
+  tag: ""
+  pullPolicy: Always
+
+imagePullSecrets:
+  - name: nexus-prod
+
+nameOverride: ""
+fullnameOverride: ""
+
+service:
+  type: LoadBalancer
+  port: 80
+
+configMap:
+  data:
+    APP_NAME: "Example FastAPI App"
+    DEBUG: false
+    VERSION: "0.0.1" 
+
+route:
+  enabled: false
+  host: ""
+  path: /
+  tls:
+    enabled: false
+    termination: edge
+    insecureEdgeTerminationPolicy: Allow
+
+resources:
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}

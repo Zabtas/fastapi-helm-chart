@@ -1,0 +1,19 @@
+apiVersion: v2
+name: fastapi-helm-chart
+description: A Helm chart for deploying a FastAPI application
+type: application
+version: 0.0.1
+appVersion: "0.0.1"
+home: https://github.com/anqorithm/fastapi-helm-chart
+sources:
+  - https://github.com/anqorithm/fastapi-helm-chart
+maintainers:
+  - name: Abdullah Alqahtani
+    email: anqorithm@protonmail.com
+keywords:
+  - fastapi
+  - helm
+  - api
+  - kubernetes
+annotations:
+  category: Backend
