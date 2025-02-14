@@ -153,16 +153,6 @@ configMap:
     VERSION: {YOUR_VERSION}  # e.g., "1.0.0"
     # Add your custom environment variables here
 
-# OpenShift Route configuration
-route:
-  enabled: false  # Set to true to create a Route
-  host: ""  # Your route hostname
-  path: /
-  tls:
-    enabled: false
-    termination: edge
-    insecureEdgeTerminationPolicy: Allow
-
 # Resource limits and requests
 resources:
   limits:
@@ -178,6 +168,18 @@ nodeSelector: {}  # Add node selectors if needed
 tolerations: []  # Add tolerations if needed
 
 affinity: {}  # Add affinity rules if needed
+```
+
+## Add the repository to your Helm CLI
+
+```bash
+helm repo add fastapi-helm-chart https://anqorithm.github.io/fastapi-helm-chart/charts/fastapi
+```
+
+## Install the chart
+
+```bash
+helm install my-fastapi-helm-chart fastapi-helm-chart/fastapi-helm-chart --version 0.0.2
 ```
 
 ## Installation
@@ -233,10 +235,6 @@ Contributions are welcome! Please feel free to submit a PR.
 - [Abdullah Alqahtani](https://github.com/anqorithm)
 
 
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-
-
