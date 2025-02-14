@@ -11,6 +11,8 @@
 [![Docker](https://img.shields.io/badge/Docker-v27%2B-2496ED)](https://www.docker.com)
 [![Poetry](https://img.shields.io/badge/Poetry-v1.8%2B-60A5FA)](https://python-poetry.org)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![GitHub last commit](https://img.shields.io/github/last-commit/anqorithm/fastapi-helm-chart)
+[![GitHub issues](https://img.shields.io/github/issues/anqorithm/fastapi-helm-chart)](https://github.com/anqorithm/fastapi-helm-chart/issues)
 
 # FastAPI Helm Chart
 
