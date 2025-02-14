@@ -16,8 +16,6 @@
 
 This repository contains a Helm chart for a FastAPI application to be deployed on OpenShift clusters with minimal effort with customizable configurations.
 
-<div class="artifacthub-widget" data-url="https://artifacthub.io/packages/helm/fastapi-helm-chart/fastapi-helm-chart" data-theme="dark" data-header="true" data-stars="true" data-responsive="true"><blockquote><p lang="en" dir="ltr"><b>fastapi-helm-chart</b>: A Helm chart for deploying a FastAPI application</p>&mdash; Open in <a href="https://artifacthub.io/packages/helm/fastapi-helm-chart/fastapi-helm-chart">Artifact Hub</a></blockquote></div><script async src="https://artifacthub.io/artifacthub-widget.js"></script>
-
 ## Prerequisites
 
 - Helm CLI (version 3+)
