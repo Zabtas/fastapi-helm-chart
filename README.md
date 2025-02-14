@@ -10,7 +10,7 @@
 
 # FastAPI Helm Chart
 
-This is a Helm chart for a FastAPI application. This chart is designed to deploy FastAPI applications on OpenShift clusters with customizable configurations.
+This repository contains a Helm chart for a FastAPI application to be deployed on OpenShift clusters with minimal effort with customizable configurations.
 
 ## Prerequisites
 
@@ -217,3 +217,22 @@ This will deploy your FastAPI application to the OpenShift cluster using the def
 ```bash
 helm install fastapi-chart ./charts/fastapi -f values.yaml
 ```
+
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a PR.
+
+
+## Contributors
+
+- [Abdullah Alqahtani](https://github.com/anqorithm)
+
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
+
