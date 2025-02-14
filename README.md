@@ -6,8 +6,10 @@
 [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fastapi-helm-chart)](https://artifacthub.io/packages/search?repo=fastapi-helm-chart)
 [![Helm Version](https://img.shields.io/badge/Helm-v3.0%2B-blue)](https://helm.sh)
 [![OpenShift Version](https://img.shields.io/badge/OpenShift-v4.x-red)](https://www.openshift.com)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-v1.16%2B-326CE5)](https://kubernetes.io)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688)](https://fastapi.tiangolo.com)
-[![Docker](https://img.shields.io/badge/Docker-required-2496ED)](https://www.docker.com)
+[![Docker](https://img.shields.io/badge/Docker-v27%2B-2496ED)](https://www.docker.com)
+[![Poetry](https://img.shields.io/badge/Poetry-v1.8%2B-60A5FA)](https://python-poetry.org)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # FastAPI Helm Chart
