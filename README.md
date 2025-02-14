@@ -2,6 +2,14 @@
   <img src="./assets/fastapi-helm-openshift-logo.svg" width="400" alt="FastAPI Helm Chart">
 </p>
 
+<p align="center">
+  <a href="https://helm.sh"><img src="https://img.shields.io/badge/Helm-v3.0%2B-0F1689?style=for-the-badge&logo=helm&logoColor=white" alt="Helm Version"></a>
+  <a href="https://www.openshift.com"><img src="https://img.shields.io/badge/OpenShift-v4.x-EE0000?style=for-the-badge&logo=redhatopenshift&logoColor=white" alt="OpenShift Version"></a>
+  <a href="https://fastapi.tiangolo.com"><img src="https://img.shields.io/badge/FastAPI-0.100%2B-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"></a>
+  <a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-required-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="License"></a>
+</p>
+
 # FastAPI Helm Chart
 
 This is a Helm chart for a FastAPI application. This chart is designed to deploy FastAPI applications on OpenShift clusters with customizable configurations.
