@@ -13,6 +13,10 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![GitHub last commit](https://img.shields.io/github/last-commit/anqorithm/fastapi-helm-chart)
 [![GitHub issues](https://img.shields.io/github/issues/anqorithm/fastapi-helm-chart)](https://github.com/anqorithm/fastapi-helm-chart/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/anqorithm/fastapi-helm-chart)](https://github.com/anqorithm/fastapi-helm-chart/pulls)
+[![GitHub contributors](https://img.shields.io/github/contributors/anqorithm/fastapi-helm-chart)](https://github.com/anqorithm/fastapi-helm-chart/graphs/contributors)
+[![GitHub forks](https://img.shields.io/github/forks/anqorithm/fastapi-helm-chart)](https://github.com/anqorithm/fastapi-helm-chart/network)
+[![GitHub stars](https://img.shields.io/github/stars/anqorithm/fastapi-helm-chart)](https://github.com/anqorithm/fastapi-helm-chart/stargazers)
 
 # FastAPI Helm Chart
 
