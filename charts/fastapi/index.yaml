@@ -4,6 +4,7 @@ entries:
   - annotations:
       artifacthub.io/changes: '- initial release'
       artifacthub.io/license: MIT
+      artifacthub.io/logoPath: https://raw.githubusercontent.com/anqorithm/fastapi-helm-chart/main/assets/fastapi-helm-openshift-logo.svg
       artifacthub.io/provider: anqorithm
       artifacthub.io/readme: |
         <p align="center">
