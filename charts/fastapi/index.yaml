@@ -2,10 +2,38 @@ apiVersion: v1
 entries:
   fastapi-helm-chart:
   - annotations:
+      artifacthub.io/changes: '- initial release'
+      artifacthub.io/license: MIT
+      artifacthub.io/provider: anqorithm
+      artifacthub.io/readme_url: https://github.com/anqorithm/fastapi-helm-chart/blob/main/README.md
+      artifacthub.io/tags: fastapi, helm, api, kubernetes
+      category: Backend
+    apiVersion: v2
+    appVersion: 0.0.2
+    created: "2025-02-14T19:48:45.6816568+03:00"
+    description: A Helm chart for deploying a FastAPI application
+    digest: 416b0915af58ff1fd7c99b5137caeb1d054a5aaa6e7699f81d6db9f2f1fc77aa
+    home: https://github.com/anqorithm/fastapi-helm-chart
+    keywords:
+    - fastapi
+    - helm
+    - api
+    - kubernetes
+    maintainers:
+    - email: anqorithm@protonmail.com
+      name: Abdullah Alqahtani
+    name: fastapi-helm-chart
+    sources:
+    - https://github.com/anqorithm/fastapi-helm-chart
+    type: application
+    urls:
+    - https://anqorithm.github.io/fastapi-helm-chart/charts/fastapi-helm-chart-0.0.2.tgz
+    version: 0.0.2
+  - annotations:
       category: Backend
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-02-14T15:40:24.1823368+03:00"
+    created: "2025-02-14T19:48:45.6806588+03:00"
     description: A Helm chart for deploying a FastAPI application
     digest: 199fc22b5a5c59ae99341936689ca8a524fe53ad31a62d84a07ee4979f939bbe
     home: https://github.com/anqorithm/fastapi-helm-chart
@@ -24,4 +52,4 @@ entries:
     urls:
     - https://anqorithm.github.io/fastapi-helm-chart/charts/fastapi-helm-chart-0.0.1.tgz
     version: 0.0.1
-generated: "2025-02-14T15:40:24.1787412+03:00"
+generated: "2025-02-14T19:48:45.6756962+03:00"
