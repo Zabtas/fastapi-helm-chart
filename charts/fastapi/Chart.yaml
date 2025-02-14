@@ -5,6 +5,7 @@ type: application
 version: 0.0.3
 appVersion: "0.0.3"
 home: https://github.com/anqorithm/fastapi-helm-chart
+icon: https://raw.githubusercontent.com/anqorithm/fastapi-helm-chart/main/assets/fastapi-helm-openshift-logo.svg
 sources:
   - https://github.com/anqorithm/fastapi-helm-chart
 maintainers:
@@ -15,11 +16,54 @@ keywords:
   - helm
   - api
   - kubernetes
+  - openshift
+  - docker
+  - poetry
+  - poetry-project
 annotations:
   category: Backend
-  artifacthub.io/tags: fastapi, helm, api, kubernetes
+  artifacthub.io/tags: fastapi, helm, api, kubernetes, openshift, docker, poetry, poetry-project
   artifacthub.io/provider: anqorithm
   artifacthub.io/license: MIT
   artifacthub.io/readme_url: https://github.com/anqorithm/fastapi-helm-chart/blob/main/README.md
   artifacthub.io/changes: |
     - initial release
+    - added openshift, docker, poetry, poetry-project tags
+    - added logo path
+  artifacthub.io/readme: |
+    <p align="center">
+      <img src="https://raw.githubusercontent.com/anqorithm/fastapi-helm-chart/main/assets/fastapi-helm-openshift-logo.svg" width="400" alt="FastAPI Helm Chart">
+    </p>
+
+    [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fastapi-helm-chart)](https://artifacthub.io/packages/search?repo=fastapi-helm-chart)
+    [![Helm Version](https://img.shields.io/badge/Helm-v3.0%2B-blue)](https://helm.sh)
+    [![OpenShift Version](https://img.shields.io/badge/OpenShift-v4.x-red)](https://www.openshift.com)
+    [![Kubernetes](https://img.shields.io/badge/Kubernetes-v1.16%2B-326CE5)](https://kubernetes.io)
+    [![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688)](https://fastapi.tiangolo.com)
+    [![Docker](https://img.shields.io/badge/Docker-v27%2B-2496ED)](https://www.docker.com)
+    [![Poetry](https://img.shields.io/badge/Poetry-v1.8%2B-60A5FA)](https://python-poetry.org)
+
+    # FastAPI Helm Chart
+
+    This repository contains a Helm chart for a FastAPI application to be deployed on OpenShift clusters with minimal effort with customizable configurations.
+
+    ## Key Features
+
+    - ⚙️ Easy deployment of FastAPI applications on OpenShift/Kubernetes
+    - ⚙️ Highly configurable environment variables
+    - ⚙️ Resource management and monitoring
+
+    ## Quick Start
+
+    ```bash
+    # Add the Helm repository
+    helm repo add fastapi-helm-chart https://anqorithm.github.io/fastapi-helm-chart/charts/fastapi
+
+    # Install the chart with default values
+    helm install my-fastapi fastapi-helm-chart/fastapi-helm-chart --version 0.0.3
+
+    # Install the chart with custom values
+    helm install my-fastapi fastapi-helm-chart/fastapi-helm-chart --version 0.0.3 --values values.yaml
+    ```
+
+    For complete documentation and examples, visit our [GitHub repository](https://github.com/anqorithm/fastapi-helm-chart).  
