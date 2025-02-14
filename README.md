@@ -238,3 +238,15 @@ Contributions are welcome! Please feel free to submit a PR.
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
+## Acknowledgments
+
+- [FastAPI](https://fastapi.tiangolo.com)
+- [OpenShift](https://www.openshift.com)
+- [Kubernetes](https://kubernetes.io)
+- [Helm](https://helm.sh)
+- [Artifact Hub](https://artifacthub.io)
+- [Poetry](https://python-poetry.org)
+- [Docker](https://www.docker.com)
+- [GitHub](https://github.com)
