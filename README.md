@@ -2,6 +2,8 @@
   <img src="./assets/fastapi-helm-openshift-logo.svg" width="400" alt="FastAPI Helm Chart">
 </p>
 
+
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fastapi-helm-chart)](https://artifacthub.io/packages/search?repo=fastapi-helm-chart)
 [![Helm Version](https://img.shields.io/badge/Helm-v3.0%2B-blue)](https://helm.sh)
 [![OpenShift Version](https://img.shields.io/badge/OpenShift-v4.x-red)](https://www.openshift.com)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688)](https://fastapi.tiangolo.com)
