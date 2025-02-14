@@ -52,6 +52,10 @@ entries:
     - helm
     - api
     - kubernetes
+    - openshift
+    - docker
+    - poetry
+    - poetry-project
     maintainers:
     - email: anqorithm@protonmail.com
       name: Abdullah Alqahtani
@@ -75,6 +79,10 @@ entries:
     - helm
     - api
     - kubernetes
+    - openshift
+    - docker
+    - poetry
+    - poetry-project
     maintainers:
     - email: anqorithm@protonmail.com
       name: Abdullah Alqahtani
