@@ -2,6 +2,58 @@ apiVersion: v1
 entries:
   fastapi-helm-chart:
   - annotations:
+      artifacthub.io/changes: |
+        - initial release
+        - added openshift, docker, poetry, poetry-project tags
+        - added logo path
+      artifacthub.io/license: MIT
+      artifacthub.io/provider: anqorithm
+      artifacthub.io/readme: "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/anqorithm/fastapi-helm-chart/main/assets/fastapi-helm-openshift-logo.svg\"
+        width=\"400\" alt=\"FastAPI Helm Chart\">\n</p>\n\n[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fastapi-helm-chart)](https://artifacthub.io/packages/search?repo=fastapi-helm-chart)\n[![Helm
+        Version](https://img.shields.io/badge/Helm-v3.0%2B-blue)](https://helm.sh)\n[![OpenShift
+        Version](https://img.shields.io/badge/OpenShift-v4.x-red)](https://www.openshift.com)\n[![Kubernetes](https://img.shields.io/badge/Kubernetes-v1.16%2B-326CE5)](https://kubernetes.io)\n[![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688)](https://fastapi.tiangolo.com)\n[![Docker](https://img.shields.io/badge/Docker-v27%2B-2496ED)](https://www.docker.com)\n[![Poetry](https://img.shields.io/badge/Poetry-v1.8%2B-60A5FA)](https://python-poetry.org)\n\n#
+        FastAPI Helm Chart\n\nThis repository contains a Helm chart for a FastAPI
+        application to be deployed on OpenShift clusters with minimal effort with
+        customizable configurations.\n\n## Key Features\n\n- ⚙️ Easy deployment of
+        FastAPI applications on OpenShift/Kubernetes\n- ⚙️ Highly configurable environment
+        variables\n- ⚙️ Resource management and monitoring\n\n## Quick Start\n\n```bash\n#
+        Add the Helm repository\nhelm repo add fastapi-helm-chart https://anqorithm.github.io/fastapi-helm-chart/charts/fastapi\n\n#
+        Install the chart with default values\nhelm install my-fastapi fastapi-helm-chart/fastapi-helm-chart
+        --version 0.0.3\n\n# Install the chart with custom values\nhelm install my-fastapi
+        fastapi-helm-chart/fastapi-helm-chart --version 0.0.3 --values values.yaml\n```\n\nFor
+        complete documentation and examples, visit our [GitHub repository](https://github.com/anqorithm/fastapi-helm-chart).
+        \ "
+      artifacthub.io/readme_url: https://github.com/anqorithm/fastapi-helm-chart/blob/main/README.md
+      artifacthub.io/tags: fastapi, helm, api, kubernetes, openshift, docker, poetry,
+        poetry-project
+      category: Backend
+    apiVersion: v2
+    appVersion: 0.0.4
+    created: "2025-02-15T00:07:57.9674549+03:00"
+    description: A Helm chart for deploying a FastAPI application
+    digest: 76a3a9e07ecf0830bf593ad7eba83bf394900f5a6965ac396e4fb8fcdba84e28
+    home: https://github.com/anqorithm/fastapi-helm-chart
+    icon: https://raw.githubusercontent.com/anqorithm/fastapi-helm-chart/main/assets/fastapi-helm-openshift-logo.svg
+    keywords:
+    - fastapi
+    - helm
+    - api
+    - kubernetes
+    - openshift
+    - docker
+    - poetry
+    - poetry-project
+    maintainers:
+    - email: anqorithm@protonmail.com
+      name: Abdullah Alqahtani
+    name: fastapi-helm-chart
+    sources:
+    - https://github.com/anqorithm/fastapi-helm-chart
+    type: application
+    urls:
+    - https://anqorithm.github.io/fastapi-helm-chart/fastapi-helm-chart-0.0.4.tgz
+    version: 0.0.4
+  - annotations:
       artifacthub.io/changes: '- initial release'
       artifacthub.io/license: MIT
       artifacthub.io/provider: anqorithm
@@ -10,7 +62,7 @@ entries:
       category: Backend
     apiVersion: v2
     appVersion: 0.0.3
-    created: "2025-02-14T22:12:17.3261477+03:00"
+    created: "2025-02-15T00:07:57.9668941+03:00"
     description: A Helm chart for deploying a FastAPI application
     digest: 8baad8526a6238e64b898788ccb60361abb95aa104c11fb1ab423eedd187ac86
     home: https://github.com/anqorithm/fastapi-helm-chart
@@ -38,7 +90,7 @@ entries:
       category: Backend
     apiVersion: v2
     appVersion: 0.0.2
-    created: "2025-02-14T22:12:17.3251478+03:00"
+    created: "2025-02-15T00:07:57.9661738+03:00"
     description: A Helm chart for deploying a FastAPI application
     digest: 416b0915af58ff1fd7c99b5137caeb1d054a5aaa6e7699f81d6db9f2f1fc77aa
     home: https://github.com/anqorithm/fastapi-helm-chart
@@ -55,13 +107,13 @@ entries:
     - https://github.com/anqorithm/fastapi-helm-chart
     type: application
     urls:
-    - https://anqorithm.github.io/fastapi-helm-chart/charts/fastapi-helm-chart-0.0.2.tgz
+    - https://anqorithm.github.io/fastapi-helm-chart/fastapi-helm-chart-0.0.2.tgz
     version: 0.0.2
   - annotations:
       category: Backend
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-02-14T22:12:17.3251478+03:00"
+    created: "2025-02-15T00:07:57.9649075+03:00"
     description: A Helm chart for deploying a FastAPI application
     digest: 199fc22b5a5c59ae99341936689ca8a524fe53ad31a62d84a07ee4979f939bbe
     home: https://github.com/anqorithm/fastapi-helm-chart
@@ -78,6 +130,6 @@ entries:
     - https://github.com/anqorithm/fastapi-helm-chart
     type: application
     urls:
-    - https://anqorithm.github.io/fastapi-helm-chart/charts/fastapi-helm-chart-0.0.1.tgz
+    - https://anqorithm.github.io/fastapi-helm-chart/fastapi-helm-chart-0.0.1.tgz
     version: 0.0.1
-generated: "2025-02-14T22:12:17.3241474+03:00"
+generated: "2025-02-15T00:07:57.9600079+03:00"
