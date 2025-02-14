@@ -17,6 +17,7 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/anqorithm/fastapi-helm-chart)](https://github.com/anqorithm/fastapi-helm-chart/graphs/contributors)
 [![GitHub forks](https://img.shields.io/github/forks/anqorithm/fastapi-helm-chart)](https://github.com/anqorithm/fastapi-helm-chart/network)
 [![GitHub stars](https://img.shields.io/github/stars/anqorithm/fastapi-helm-chart)](https://github.com/anqorithm/fastapi-helm-chart/stargazers)
+[![GitHub watchers](https://img.shields.io/github/watchers/anqorithm/fastapi-helm-chart?style=social)](https://github.com/anqorithm/fastapi-helm-chart/watchers)
 
 # FastAPI Helm Chart
 
@@ -185,7 +186,7 @@ helm repo add fastapi-helm-chart https://anqorithm.github.io/fastapi-helm-chart/
 ## Install the chart
 
 ```bash
-helm install my-fastapi-helm-chart fastapi-helm-chart/fastapi-helm-chart --version 0.0.2
+helm install my-fastapi-helm-chart fastapi-helm-chart/fastapi-helm-chart --version 0.0.4
 ```
 
 ## Installation
