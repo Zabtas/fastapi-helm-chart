@@ -2,8 +2,8 @@ apiVersion: v2
 name: fastapi-helm-chart
 description: A Helm chart for deploying a FastAPI application
 type: application
-version: 0.0.4
-appVersion: "0.0.4"
+version: 0.0.5
+appVersion: "0.0.5"
 home: https://github.com/anqorithm/fastapi-helm-chart
 icon: https://raw.githubusercontent.com/anqorithm/fastapi-helm-chart/main/assets/fastapi-helm-openshift-logo.svg
 sources:
@@ -25,7 +25,6 @@ annotations:
   artifacthub.io/tags: fastapi, helm, api, kubernetes, openshift, docker, poetry, poetry-project
   artifacthub.io/provider: anqorithm
   artifacthub.io/license: MIT
-  artifacthub.io/readme_url: https://github.com/anqorithm/fastapi-helm-chart/blob/main/README.md
   artifacthub.io/changes: |
     - initial release
     - added openshift, docker, poetry, poetry-project tags
@@ -60,10 +59,10 @@ annotations:
     helm repo add fastapi-helm-chart https://anqorithm.github.io/fastapi-helm-chart/charts/fastapi
 
     # Install the chart with default values
-    helm install my-fastapi fastapi-helm-chart/fastapi-helm-chart --version 0.0.3
+    helm install my-fastapi fastapi-helm-chart/fastapi-helm-chart --version 0.0.5
 
     # Install the chart with custom values
-    helm install my-fastapi fastapi-helm-chart/fastapi-helm-chart --version 0.0.3 --values values.yaml
+    helm install my-fastapi fastapi-helm-chart/fastapi-helm-chart --version 0.0.5 --values values.yaml
     ```
 
     For complete documentation and examples, visit our [GitHub repository](https://github.com/anqorithm/fastapi-helm-chart).  
