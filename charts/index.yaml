@@ -51,7 +51,7 @@ entries:
     - https://github.com/anqorithm/fastapi-helm-chart
     type: application
     urls:
-    - https://anqorithm.github.io/fastapi-helm-chart/fastapi-helm-chart-0.0.4.tgz
+    - https://anqorithm.github.io/fastapi-helm-chart/charts/fastapi-helm-chart-0.0.4.tgz
     version: 0.0.4
   - annotations:
       artifacthub.io/changes: '- initial release'
