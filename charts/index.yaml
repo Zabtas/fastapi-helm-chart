@@ -50,7 +50,7 @@ entries:
     - https://github.com/anqorithm/fastapi-helm-chart
     type: application
     urls:
-    - https://anqorithm.github.io/fastapi-helm-chart/charts/fastapi/charts/fastapi-helm-chart-0.0.5.tgz
+    - https://anqorithm.github.io/fastapi-helm-chart/charts/fastapi-helm-chart-0.0.5.tgz
     version: 0.0.5
   - annotations:
       artifacthub.io/changes: |
