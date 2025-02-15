@@ -8,6 +8,7 @@ entries:
         - added logo path
       artifacthub.io/license: MIT
       artifacthub.io/provider: anqorithm
+      artifacthub.io/provider_url: https://anqorithm.github.io/fastapi-helm-chart/
       artifacthub.io/readme: "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/anqorithm/fastapi-helm-chart/main/assets/fastapi-helm-openshift-logo.svg\"
         width=\"400\" alt=\"FastAPI Helm Chart\">\n</p>\n\n[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fastapi-helm-chart)](https://artifacthub.io/packages/search?repo=fastapi-helm-chart)\n[![Helm
         Version](https://img.shields.io/badge/Helm-v3.0%2B-blue)](https://helm.sh)\n[![OpenShift
